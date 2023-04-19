@@ -1,0 +1,127 @@
+/* Set default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the navbar */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Style the buttons */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+/* Style the overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* Style the images */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+img.contact-name {
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+img.icon5 {
+  max-width: 100px;
+}
+
+/* Center the content on the page */
+#table {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+#refresh, #addContact {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+  
+  img.contact-name {
+      max-width: 200px;
+  }
+  
+  img.icon5 {
+      max-width: 80px;
+  }
+  
+  table th, table td {
+      padding: 5px;
+  }
+  
+  #table {
+      max-width: 100%;
+      padding: 0 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
